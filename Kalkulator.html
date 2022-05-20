@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>Page Title</title>
+ <meta charset="utf-8" />
+ <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=true" />
+ <link rel="stylesheet" href="calc.css" type="text/css">
+ <script type="text/javascript" src="calc.js"></script>
+ </head>
+ <body>
+ <style>
+ body{
+    background-image: linear-gradient(50deg, blue 0%, #1276af 100%);
+}
+.container {
+ width: 300px;
+ padding:0px 10px;
+ margin: 0px auto;
+}
+
+.red {
+ color: #678;
+}
+table {
+ margin: 0px 5px 5px 5px;
+}
+
+button {
+ width: 50px; 
+ height: 50px; 
+ font-size: 22px;
+ background-color: rgba(150, 100, 150, 0.5);
+ color: #fee;
+ border: 2px #b9b outset;
+ border-radius: 5px;
+ outline: none;
+ cursor: pointer;
+}
+.top {
+ height: 30px; 
+ background-color: #009788;
+ border-radius: 4px;
+ border: 1px green outset;
+ color: #fff;
+   font-size: 16px;
+}
+#c {
+ height: 64px;
+ color: #fff;
+ font-weight: bold;
+}
+
+button:active{
+ background-color: #dbc;
+ box-shadow: none ;
+ padding-top: 4px;
+ outline: 1px solid #989;
+ border: 3px #b9b inset;
+}
+.top:hover{
+ background-color: #bab;
+ box-shadow: inset 5px 5px 5px #cab, inset -5px -5px 5px #a98;
+}
+button:hover{
+ background-color: #a9a;
+}
+.top:active{
+ background-color: #dbc;
+ box-shadow: none ;
+ padding-top: 4px;
+ outline: 1px solid #989;
+ border: 3px #b9b inset;
+}
+#display-container {
+ border: 3px inset;
+ margin-bottom: 10px;
+}
+#h1, #display1 { 
+ width: 260px; 
+ height: 25px; 
+ padding: 2px;
+ padding-top: 4px; 
+ background-color:powderblue; 
+ font-size: 22px;
+ font-family: sans-serif;
+ font-weight: bold;
+ text-align: right;
+ overflow: hidden;
+ font-weight:bold;
+ color: #245;
+ text-shadow: 2px 2px 1px #8ac;
+}
+#display1 {
+ font-size: 20px;
+}
+
+.div {
+ border: 5px #6bc ridge  ;
+ border-radius: 10px;
+ margin: 0px 5px 5px 5px;
+ padding-top: 0px;
+ width: 286px;
+   background-color: #689;
+ font-size: 11px;
+ color: white;
+}
+.w {
+ box-shadow: -10px 10px 10px silver;
+ border: 5px #6bc groove;
+ margin: 0px 5px 5px 5px;
+ border-radius: 10px;
+ padding-top: 0px;
+ font-size: 11px;
+ cursor: pointer;
+ width: 285px;
+ color: white;
+}
+
+}
+.disabled, .disabled:active, .disabled:hover {
+ padding-top: 0px;
+ background-color: #999;
+ box-shadow: 0px 0px 0px grey;
+ border: none;
+}
+
+sup {
+ font-size: .65em;
+}
+ </style>
+ <div class="container">
+
+ 
+ <div class="div">
+ <table><caption><pre></bsp></caption>
+ <tr>
+ <td colspan="5"><div id="display-container"><div id="display1"><small><small><span></span></small></small></div><div id="h1"><small><small><span></span></small></small></div></div></td>
+ </tr>
+ 
+ <tr>
+ <td><button class="top" onclick='getElementById("h1").innerHTML = bsp()'>Del</button></td>   
+ <td><button class="top" onclick='getElementById("h1").innerHTML = mp()'>M+</button></td>
+ <td><button class="top" onclick='getElementById("h1").innerHTML = mr()'>MR</button></td>
+ <td><button class="top" onclick='getElementById("h1").innerHTML = maths("rand")'><small>Rnd</small></button></td>
+ <td rowspan="2"><button id="c" class="top" onclick='getElementById("h1").innerHTML = c("")'>C</button></td>
+ </tr>
+ 
+ <tr>
+ <td><button class="top" onclick='getElementById("h1").innerHTML = maths("res")'><sup>1</sup>/<sub>10</sub></button></td>
+ <td><button class="top" onclick='getElementById("h1").innerHTML = maths("logTen")'><small>log10</small></sup></button></td>
+ <td><button class="top" onclick='getElementById("h1").innerHTML = maths("ln")'>ln</button></td>
+ <td><button class="top" onclick='getElementById("h1").innerHTML = PE("E")'>e</button></td>
+  </tr>
+  
+  <tr>
+ <td><button class="top" onclick='getElementById("h1").innerHTML = maths("sine")'>sin</button></td>
+ <td><button class="top" onclick='getElementById("h1").innerHTML = maths("cosine")'>cos</button></td>
+ <td><button class="top" onclick='getElementById("h1").innerHTML = maths("tangent")'>tan</sup></button></td>
+ <td><button class="top" onclick='getElementById("h1").innerHTML = PE("PI")'>π</button></td>
+ <td><button class="top" onclick='getElementById("h1").innerHTML = percent()'>%</button></td>
+ </tr>
+ 
+ <tr>
+ <td><button class="top" onclick='getElementById("h1").innerHTML = maths("fact")'>n!</button></td>
+ <td><button class="top" onclick='getElementById("h1").innerHTML = digit("%")'>Mod</button></td>
+ <td><button class="top" onclick='getElementById("h1").innerHTML = power("^")'>x<sup>y</sup></button></td>
+ <td><button class="top" onclick='getElementById("h1").innerHTML = power("√")'><sup>y</sup>√x</button></td>
+ <td><button class="top" onclick='getElementById("h1").innerHTML = maths("cubert")'><sup>3</sup>√</button></td>
+ </tr>
+ 
+ <tr>
+ <td><button class="top disabled" onclic='getElementById("h1").innerHTML = digit("(")'>(</button></td>
+ <td><button class="top disabled" onclic='getElementById("h1").innerHTML = digit(")")'>)</button></td>
+ <td><button class="top" onclick='getElementById("h1").innerHTML = base("bin")'>bin</button></td>
+ <td><button class="top" onclick='getElementById("h1").innerHTML = base("oct")'>oct</button></td>
+ <td><button class="top" onclick='getElementById("h1").innerHTML = base("hex")'>hex</button></td>
+ </tr>
+ 
+ <tr>
+ <td><button onclick='getElementById("h1").innerHTML = digit("7")'> 7</button></td>
+ <td><button onclick='getElementById("h1").innerHTML = digit("8")'>8</button></td>
+ <td><button onclick='getElementById("h1").innerHTML = digit("9")'>9</button></td>
+ <td><button onclick='getElementById("h1").innerHTML = operators("+")'>+</button></td>
+ <td><button onclick='getElementById("h1").innerHTML = maths("negpos")'>-/+</button> </td>
+ </tr>
+ 
+ <tr>
+ <td><button onclick='getElementById("h1").innerHTML = digit("4")'>4</button></td>
+ <td><button onclick='getElementById("h1").innerHTML = digit("5")'>5</button></td>
+ <td><button onclick='getElementById("h1").innerHTML = digit("6")'>6</button></td>
+ <td><button onclick='getElementById("h1").innerHTML = operators("-")'>-</button></td>
+ <td><button onclick='getElementById("h1").innerHTML = maths("Sqrt")'>√</button></td>
+ </tr>
+ 
+ <tr>
+ <td><button onclick='getElementById("h1").innerHTML = digit("1")'>1</button></td>
+ <td><button onclick='getElementById("h1").innerHTML = digit("2")'>2</button></td>
+ <td><button onclick='getElementById("h1").innerHTML = digit("3")'>3</button></td>
+ <td><button onclick='getElementById("h1").innerHTML = operators("/")'>/</button></td>
+ <td><button onclick='getElementById("h1").innerHTML = maths("cube")'>x<sup>3</sup></button></td>
+ </tr>
+ 
+ <tr>
+ <td><button onclick='getElementById("h1").innerHTML = dot(".")'>.</button></td>
+ <td><button onclick='getElementById("h1").innerHTML = digit("0")'>0</button></td>
+ <td><button onclick='getElementById("h1").innerHTML = equal()'>=</button></td>
+ <td><button onclick='getElementById("h1").innerHTML = operators("*")'>X</button></td>
+ <td><button onclick='getElementById("h1").innerHTML = maths("sqr")'>x<sup>2</sup></button></td>
+ </tr> 
+ </table>
+ </div>
+ 
+ </div>
+ 
+ 
+ <script>
+ 
+var decimalPoint = enter = entered = operatorSign = rootNpower_Sign = flo = math = M = firstI = first = second = secondI = answer = theanswer = result = peSign = "";
+var opsCheck = dotCounter = 0;
+var removeFirstZero = "";
+
+function dot(b) {
+ if (decimalPoint == "") {
+ enter = entered = b;
+ first+= enter;
+ entered+= enter;
+ decimalPoint = ".";
+ dotCounter = 0;
+ return first;
+ } else {
+ return first;
+ }
+}
+//To control what happen when Pi and Euler is clicked
+function PE(b) {
+ decimalPoint = ".";
+ dotCounter = 15;
+ var cons = b;
+ if (peSign == "") {
+ if (operatorSign != "" && first == "" + operatorSign) {
+ first = (cons = "PI") ? Math.PI: Math.E;
+ } else if (operatorSign != "" && first > 0 || first < 0) {
+ first = (cons == "PI") ? first + "" + Math.PI: first + "" + Math.E;
+ } else if (first != "" && operatorSign != "") {
+ first += (cons = "PI") ? Math.PI: Math.E;
+ } else if (operatorSign == "" && first != "") {
+ first = (cons == "PI") ? first + "" + Math.PI: first + "" + Math.E;
+ } else {
+ first = (cons == "PI") ? Math.PI: Math.E;
+ }
+ } else if (first !== "") {
+ first = (cons == "PI") ? first + "" + Math.PI: first + "" + Math.E;
+ } else {
+ first = (cons == "PI") ? Math.PI:  Math.E;
+ }
+ return first;
+}
+function mp() {
+ M = first;
+ first = M;
+ return first ;
+}
+function mr() {
+ first = M;
+ return first ;
+}
+//Cancel making all variable empty. All variable = ""
+function c(c) {
+ document.getElementById("display1").innerHTML = decimalPoint = operatorSign = rootNpower_Sign = entered = math = first = firstI = second = secondI = answer = theanswer = flo = M = "";
+ return "";
+}
+//To calculate squares, cubes, factorials e.t.c. For calculations which use only one value. Variable 'firstI' was isolated by maths() function to be solved here
+function mathematics() {
+ if (math == "sqr") {
+ result = firstI * firstI;
+ } else if (math == "cube") {
+ result = firstI * firstI * firstI;
+ } else if (math == "Sqrt") {
+ result = Math.sqrt(firstI);
+ } else if (math == "cubert") {
+ result = Math.cbrt(firstI);
+ } else if (math == "negpos") {
+ result = firstI * -1;
+ } else if (math == "sine") {
+ result = Math.sin(firstI);
+ } else if (math == "cosine") {
+ result = Math.cos(firstI);
+ } else if (math == "tangent") {
+ result = Math.tan(firstI);
+ } else if (math == "ln") {
+ result = Math.log(firstI);
+ } else if (math == "logTen") {
+ result = Math.log10(firstI);
+ } else if (math == "rand") {
+ result = Math.round(firstI);
+ }else if (math == "res") {
+ result = 1 / firstI;
+ } else if (math == "fact") {
+ n = firstI;
+ firstI = 1;
+ while (n > 1){
+ firstI *= n;
+ n -= 1;
+ }
+ result = firstI;
+ } decimalPoint = (Math.round(result) == result) ? "": ".";
+}
+//To make variable 'first' and 'second' keep result of its values. e.g if it was 3 + 2 it must now be 5. This is done to prepare them for use in maths() function
+function prep() {
+ second = eval(second);
+ first = eval(first);
+}
+//When sqr, cube e.t.c are clicked, this function, math(), does the following: 1. It extract the last number you entered from variable 'first' and keeps it as variable 'firstI'. 2. It calls mathematics function to work on the on variable 'firstI'. The answer is kept in 'result' variable. 3.It displays the answer of other previous numbers entered and the 'result' from mathematics e.g. 5 + 4 which was 3 + 2 + 2^2. Here 3 + 2 has become 5 and because of prep() function. 
+function maths(a) {
+ math = a;
+ try {
+ if (operatorSign == "+") {
+ prep();
+ firstI = first - second;
+ mathematics();
+ first = second + "+" + result;
+ } else if (operatorSign == "-") {
+ prep();
+ firstI = second - first;
+ mathematics();
+ first = second + "-" + "(" + result + ")";
+ } else if (operatorSign == "*") {
+ prep();
+ firstI = first / second;
+ mathematics();
+ first = second + "*" + result;
+ } else if (operatorSign == "/") {
+ prep();
+ firstI = second / first;
+ mathematics();
+ first = second + "/" + result;
+ } else {
+ firstI = first;
+ mathematics();
+ first = result;
+ }
+ return first;
+ } catch (first ) {
+ first = second + operatorSign;
+ return first;
+ }
+}
+//This is just my notes:--> To remove first zero in second number zero must have its own function so that every entry of zero is checked to make sure that no number greater than zero should start with a zero
+function digit(b) {
+ opsCheck = 0;
+ dotCounter++;
+ if (first == Infinity || first == NaN) {
+ first = 0;
+ }
+ peSign = "pes";
+ entered = b;
+ if (rootNpower_Sign != "") {
+ first = (first === "0" && entered !== ".") ? entered: first + entered;
+ return secondI + firstI + rootNpower_Sign + first;
+ } else {
+ first = (first === "0" && entered !== ".") ? entered: first + entered;
+ theanswer = eval(first) + "";
+ if (theanswer.length > 14) {
+ theanswer = Math.abs((theanswer*1).toPrecision(14));
+ }
+   document.getElementById("display1").innerHTML = first;
+ return theanswer;
+ }
+}
+var thebase = "";
+function base(a) {
+ thebase = a;
+ first *= 1;
+ if (thebase == "bin") {
+ firstII = first.toString(2);
+ } else if (thebase == "oct") {
+ firstII = first.toString(8);
+ } else if (thebase == "hex") {
+ firstII = first.toString(16);
+ }
+ return firstII;
+}
+//Four functions below are for themes
+function themes(thm) {
+ theme = thm;
+ el = document.getElementsByClassName("div");
+ if (theme == 1) {
+ el[0].id="theme1";
+ } else if (theme == 2) {
+ el[0].id="theme2";
+ } else if (theme == 3) {
+ el[0].id="theme3";
+ } else {
+ el[0].id="theme4";
+ }
+}
+//back space
+function bsp() {
+ first += "";
+ dotCounter--;
+ decimalPoint = dotCounter >= 0 ? ".": "";
+ first = first.substr(0, first.length - 1);
+ document.getElementById("display1").innerHTML = first;
+ try{
+ eval(first);
+ return first;
+ } catch(first) {
+ eval(first);
+ return "";
+ }
+}
+//Two functions below calculate power and root
+function pow() {
+  first *= 1;
+  result = Math.pow(firstI, first);
+}
+function roots() {
+  first *= 1;
+  result = Math.pow(first, 1 / firstI).toPrecision(12);
+  result = Math.abs(result);
+}
+//When operators ,+ - / * are clicked op() function does a number of things. It checks if power or root were clicked. If yes, it calculates the previous numbers and the add the new operator. If not it add the operator clicked
+function operators(b) {
+ peSign = "";
+ if (opsCheck == 0) {
+ opsCheck = 1;
+ document.getElementById("display1").innerHTML = first;
+ try {
+ if (rootNpower_Sign == "^") {
+ if (operatorSign == "+") {
+ pow();
+ answer = result + second;
+ } else if (operatorSign == "-") {
+ pow();
+ answer = second - result;
+ } else if (operatorSign == "*") {
+ pow();
+ answer = result * second;
+ } else if (operatorSign == "/") {
+ pow();
+ answer = second / result;
+ } else {
+ pow();
+ answer = result;
+ }
+ } else if (rootNpower_Sign == "√") {
+ if (operatorSign == "+") {
+ roots();
+ answer = second + result;
+ } else if (operatorSign == "-") {
+ roots();
+ answer = second - result;
+ } else if (operatorSign == "*") {
+ roots();
+ answer = result * second;
+ } else if (operatorSign == "/") {
+ roots();
+ answer = second / result;
+ } else {
+ roots();
+ answer = result;
+ }
+ } else if (a == "%") {
+ answer = second % first;
+ } else {
+ operatorSign = b;
+ first += operatorSign;
+ decimalPoint = "";
+ }
+ rootNpower_Sign = "";
+ operatorSign = b;
+ firstI = "";
+ second = answer;
+ first = answer + operatorSign;
+ decimalPoint = "";
+document.getElementById("display1").innerHTML = first;
+ return eval(second);
+ } catch(x) {
+ if (first != "<span class='red'>Press ON to start</span>") {
+ operatorSign = b;
+ second = eval(first);
+ first += operatorSign;
+ decimalPoint = "";
+ } else {
+ first = "<span class='red'>Press ON to start</span>" ;
+ }
+ document.getElementById("display1").innerHTML = first;
+ return (second == undefined ) ? 0 : eval(second);
+ }
+ } else {
+ operatorSign = b;
+ first += "";
+ first = first.substr(0, first.length - 1);
+ first = first + operatorSign;
+ document.getElementById("display1").innerHTML = first;
+ return (second == undefined ) ? 0 : eval(second);
+ }
+}
+function percent() {
+ first = eval(first) * 100;
+ return first + "%";
+}
+//toggles the negative sign
+function negpos() {
+ first = (operatorSign == "") ? first *= -1: first;
+ return first ;
+}
+function power(b) {
+ rootNpower_Sign = b;
+ if (operatorSign == "+" && second != "") {
+ prep();
+ firstI = first - second;
+ first = "";
+ secondI = second + "+";
+ return second + "+" + firstI + rootNpower_Sign;
+ } else if (operatorSign == "-" && second != "") {
+ prep();
+ firstI = second - first;
+ first = "";
+ secondI = second + "-";
+ return second + "-" + firstI + rootNpower_Sign;
+ } else if (operatorSign == "*" && second != "") {
+ prep();
+ firstI = first / second;
+ first = "";
+ secondI = second + "*";
+ return second + "*" + firstI + rootNpower_Sign;
+ } else if (operatorSign == "/" && second != "") {
+ prep();
+ firstI = second / first;
+ first = "";
+ secondI = second + "/";
+ return second + "/" + firstI + rootNpower_Sign;
+ } else {
+ rootNpower_Sign = b;
+ firstI = first;
+ first = "";
+ return firstI + rootNpower_Sign;
+ }
+}
+function equal() {
+document.getElementById("display1").innerHTML = first;
+ try {
+ if (rootNpower_Sign == "^") {
+ if (operatorSign == "+") {
+ pow();
+ first = result + second;
+ } else if (operatorSign == "-") {
+ pow();
+ first = second - result;
+ } else if (operatorSign == "*") {
+ pow();
+ answer = result * second;
+ first = answer;
+ } else if (operatorSign == "/") {
+ pow();
+ first = second / result;
+ } else {
+ pow();
+ first = result;
+ }
+ } else if (rootNpower_Sign == "√") {
+ if (operatorSign == "+") {
+ roots();
+ first = result + second;
+ } else if (operatorSign == "-") {
+ roots();
+ first = second - result;
+ } else if (operatorSign == "*") {
+ roots();
+ first = result * second;
+ } else if (operatorSign == "/") {
+ roots();
+ first = second / result;
+ } else {
+ roots();
+ first = result;
+ }
+ } else if (operatorSign == "%") {
+ answer = second % first;
+ } else {
+ if (first == "") {
+ first = first ;
+ } else {
+ try{
+ first = eval(first) + "";
+ if (first.length > 14)  {
+ first = Math.abs((first*1).toPrecision(14));
+ }
+ } catch (first) {
+ first = "<small><small>Incorrect input. Click C to clear</small></small>";
+ return first;
+ first = "";
+ }
+ }
+ }
+ rootNpower_Sign = operatorSign = answer = firstI = second = "";
+ flo = first;
+ flo = Math.floor(flo);
+ decimalPoint = (flo == first) ? "": ".";
+ return first;
+ } catch(operatorSign) {
+ operatorSign = "";
+ first = eval(first) + "";
+ if (first.length > 14) {
+ first = Math.abs((first*1).toPrecision(14));
+ }
+ flo = first;
+ flo = Math.floor(flo);
+ decimalPoint = (flo == first) ? "": ".";
+ return first;
+ }
+}
+ 
+ </script>
+ </body>
+</html>
