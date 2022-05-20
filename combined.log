@@ -1,0 +1,132 @@
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"Ai-Ssistent","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"code":"1@pE3jhUjtDwPN46jq35ehDAIcRnWnvGy1tUE98jPS99gJZg8BdYip9tglJHKqEuONCoCat/0y8vPOBQ==,Pji4Lz5KteyDFgU5+MJ46KaNNNsaKR1SBgXRu9OGRSc=,nCDdYk25c1GzfGUBwHkqZw==","level":"info","message":"Waiting for QRCode Scan (Attempt 1)...:\n▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄\n█ ▄▄▄▄▄ █▄ ▄█▀█ ██▄▀██▀▄█▄ ▀▄     ██▀▄█ ▄▄▄▄▄ █\n█ █   █ █  █▀ ▀▄▀█▀▀▄▀▀ ██▄▄▄▄▄▄ ███ ▀█ █   █ █\n█ █▄▄▄█ █▄▄ ▀ ▀▀ █ █  ▄▄▄ ▄▄  ██ ▄▄▄▄▄█ █▄▄▄█ █\n█▄▄▄▄▄▄▄█▄▀ █▄▀▄▀ █▄▀ █▄█ █ █ █ ▀ █▄█▄█▄▄▄▄▄▄▄█\n█ ▄▄ ▀▀▄▀▄  ▄ ▀▀█▄▄█▀▄ ▄ ▄ █ ▄▀ █▀ █▄  █▀▄ ▄█▄█\n██ █▀██▄▄▀▄▄█ █▄  ▄  █▀  ▀ ▄█▄▀  ▀  ██ ▀ ███ ▄█\n███▄█ ▄▄█▀██▄  █ ▄ ▄▄▄  █ ▀ █▀██ █▀▄█▄█ ██▄█▀██\n██▀█   ▄▀▄████ █ █▀█ ▄█▄▀██▄█ ▀▀▄ ▄▄▀▀▀▄ █▄▀ ██\n█  ▀ █▀▄█▀ ▄ ▀▄▄   ▀█▄▀ █▀ █▀▀ ▄   ▀▀▄▄█▄▀▀ █ █\n██▀▀▄▀ ▄▀▄█▄█▀▄▀▄▄▀█▀  █▄   ▄▄█ █▀ ▄▀▀ ▀██ ▄▄▀█\n█ ▀▄  ▄▄▄ █▀▄ ▄▀█▄▄▀█ ▄▄▄ ██▄ ▀ █▀ ▄█ ▄▄▄ █  ██\n█▀ ██ █▄█ ▄▀ █▀▀▀▄ ██ █▄█  ▀▀█▀▄▄▄  █ █▄█ ▀▄  █\n█▀███  ▄▄▄█  ▄ █ █ ▄ ▄ ▄ ▄▄▀ █▄█ █▀█ ▄   ▄█▀█▀█\n█▀▀▄▀█ ▄▀  ▄▄▀▀ ▄▄▀▄▄▄ ▀▀ █ ▄▄▄  ▀██ ████▄▀▀▀██\n█▀█  ▄▄▄▄█▀▀▀██ ▀▀▀▀ ▀▄▀▄ ▄▄ ▀▀▄▀▄▄▀ ▀▀▄  █▀▀▄█\n███▀▄█▀▄▄▀▄███ █▀ ▄ ██ ▄▄▄██▄█▀▀▄█▄ █▀▄▀▄ ██ ██\n█▀██ ▄ ▄▄ ▄ ▀█ ▀▄▄ █ ▄  █ ▀█▄▄▄▀▀██▄█▄   ██ ▀ █\n██▀▀▀ █▄ ▀ █  ▀▄   █▀▄▀█▀██▀ ██▄█▀██ ▄▄ ▄█ █▀▄█\n█▄██▄▄█▄█▀▀ ▄█ █ █ ▄█ ▄▄▄   ▄▀▄▄██▀▄▀ ▄▄▄ ▀▀█ █\n█ ▄▄▄▄▄ ███▄██▀▄▄▄█▄▀ █▄█  ██▄█▀▄▄█▄▀ █▄█ ▀▀███\n█ █   █ █▀ █▄██ ▀▀█▀▀▄  ▄ ▄█▄▀▀█▄▄▀▀▄ ▄ ▄▄█▀█▄█\n█ █▄▄▄█ █ ▀▀▄ ▀  ▄▄▄ █▄▀██▀▀▀█ ▀█▀ ▀ ▄█ ▀████ █\n█▄▄▄▄▄▄▄█▄█▄▄▄▄█▄█▄███▄▄▄██▄▄▄▄▄██▄▄▄██▄▄▄█▄███\n","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2204.13","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WA-JS version: 1.2.5","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Session Unpaired","service":"user-service","session":"Ai-Ssistent","type":"session"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"Ai-Ssistent","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2204.13","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WA-JS version: 1.2.5","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"Ai-Ssistent","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2204.13","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WA-JS version: 1.2.5","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"Ai-Ssistent","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2204.13","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WA-JS version: 1.2.5","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"Ai-Ssistent","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2204.13","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WA-JS version: 1.2.5","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"Ai-Ssistent","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2204.13","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WA-JS version: 1.2.5","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"Ai-Ssistent","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2204.13","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WA-JS version: 1.2.5","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"Ai-Ssistent","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2204.13","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WA-JS version: 1.2.5","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"Ai-Ssistent","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2204.13","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WA-JS version: 1.2.5","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"Ai-Ssistent","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2204.13","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WA-JS version: 1.2.5","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"Ai-Ssistent","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2204.13","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WA-JS version: 1.2.5","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"Ai-Ssistent","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2204.13","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WA-JS version: 1.2.5","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"Ai-Ssistent","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2204.13","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WA-JS version: 1.2.5","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"Ai-Ssistent","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"Ai-Ssistent","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2204.13","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WA-JS version: 1.2.5","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"Ai-Ssistent","type":"browser"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"Ai-Ssistent","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2204.13","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WA-JS version: 1.2.5","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"Ai-Ssistent","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2204.13","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WA-JS version: 1.2.5","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"Ai-Ssistent","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2204.13","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WA-JS version: 1.2.5","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"Ai-Ssistent","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"Ai-Ssistent","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2204.13","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WA-JS version: 1.2.5","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Session Unpaired","service":"user-service","session":"Ai-Ssistent","type":"session"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"error","message":"Page Closed","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"Ai-Ssistent","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"code":"1@Y3zcRawotpc6BGz0R0vEEhDZ2rSNEq9oL+9kU6wlFNzciEFnaTu89YONNs11GTy5n9xdNn4yjdE+Hg==,gRN/kQqBR4IP1MtIyp5s9dwsqg8jAyyCPv0Xyh+l0mo=,B/KeiQgqYYW/UqHhk62ZPA==","level":"info","message":"Waiting for QRCode Scan (Attempt 1)...:\n▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄\n█ ▄▄▄▄▄ █▀ ▀▀▄▄▀▀▄▄▀  ▄▀██  █▀ ▄▄███▀▄█ ▄▄▄▄▄ █\n█ █   █ █▄▀▀▄███▄ ▄█ █▀ ▄█▀█ █▄ ▄▄██ ▀█ █   █ █\n█ █▄▄▄█ █  ▄█  ▀▄██▄▀ ▄▄▄ █ █▄  █▀▀▄▄▄█ █▄▄▄█ █\n█▄▄▄▄▄▄▄█ █▄▀ █ ▀▄█▄▀ █▄█ ▀▄█▄█ ▀▄▀ ▀▄█▄▄▄▄▄▄▄█\n█  ▀▄█▀▄▄▀▄▄▄█▄█ ██▄▄ ▄ ▄ ▄▄█▄▄█ ▀▀██▄█▄ ▄█ ▄▀█\n█▀ ▄▄▄ ▄  ▄  ▀▀   ▄▀▄▀█▄▀  █▄▀█▄▄▄▄ █▄▀▀▄█▄▄▄ █\n███▀█ █▄▀█▄▄▀▄▄▄ ▀▄ ▄▄██ █▀▄  ▄▄▄▄▄  █ ▄▄▄ █▀▀█\n█▀▄ ▀▄█▄▄▄▄▀▀▀▀ █▀▄████▄█▄▄ █▄▄█▄▀ █ ▄ ▄█▀███▀█\n██  ▀▀█▄█▄▀  ▄█ █▄ ▄▀▄▀█▄ ▄ ▄▀ ▄▀▄██▄█▄ ▄▀ ▀█ █\n█ ██▄▀ ▄ ▄▄█▄▀▄▀▀▄█  ▄▄ ▄▄█ █▀▄██ ▄▀▀▀██ █ ▄▄▄█\n█▄ ▄▄ ▄▄▄ █▄█▀ ▀██▄   ▄▄▄ ▄█▄ ▀█▄██▄▀ ▄▄▄  ▀▀▀█\n█▀▄   █▄█   ▀   ▄█▀█▄ █▄█ ▄▀▀▀▄█▄███▄ █▄█ ▀█▀ █\n█ █ ▄▄▄▄ ▄█  ▄▄▄█▀▄▄▄ ▄ ▄ ▀█▄  ▄█ █▀ ▄ ▄▄ █▀███\n██ ██▄▄▄▀▀▄▄▀▄  ▀ ▄▄▀▄▀ ▄▄▀▀▀█▀▀█ ▀ █▀ █▄▀▄▄▄██\n█▀ ▀ ▄▀▄ ▄▀ ▀▄▄▄ ▄▀ █▄▀▀▄   ▄█▀▄▄▄▄█▀▀▄▄█▄██  █\n██▄ ██▄▄█ ▀██▄▀▄ ▄▄ █▀  ██▀▀██▀▀▀▄▄▀▀ ▀ ▄▀▄█  █\n█▀▀▀██▄▄▀▀█▄▄ █▀█▄  █▄▄  ▄█▄█ █▄ █▄▄  ▀▀▀██▄█ █\n██▀▀▀ █▄▀█▄ ▀▀▀  █▀▄  ▄ ▀█▀██ █▀█▄▀▀█ █ █  █  █\n█▄██▄▄█▄▄▀▄▄██  ▄▀ ▄▄ ▄▄▄  █▄ ██ ▄▄ ▀ ▄▄▄  ▄█▀█\n█ ▄▄▄▄▄ █▄▄▄ ▀▄▄█▄█▀▄ █▄█ ▀ ▀▀▄  █▄█▀ █▄█ ▄████\n█ █   █ █▀███▄▄▄▄▄ ▄▄▄▄▄  ▄▀▀█ █▀ ▄█▀ ▄ ▄ ███ █\n█ █▄▄▄█ █▀█▀▄ ▀█▄ ▄ ▀▀█ █ ▀▀▄█▀▄▀▀▀▀▀ ▀█▄ █████\n█▄▄▄▄▄▄▄█▄▄█▄█▄█▄▄█▄██▄▄▄▄██▄▄█▄███▄▄▄███▄▄▄▄██\n","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2204.13","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WA-JS version: 1.2.5","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Session Unpaired","service":"user-service","session":"Ai-Ssistent","type":"session"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"Ai-Ssistent","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2204.13","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WA-JS version: 1.2.5","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"Ai-Ssistent","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2204.13","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WA-JS version: 1.2.5","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Initializing browser...","service":"user-service","session":"Ai-Ssistent","type":"browser"}
+{"level":"info","message":"Initializing...","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WhatsApp WEB version: 2.2204.13","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"WA-JS version: 1.2.5","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}
+{"level":"info","message":"Auto close configured to 60s","service":"user-service","session":"Ai-Ssistent","type":"client"}

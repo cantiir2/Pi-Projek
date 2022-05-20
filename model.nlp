@@ -1,0 +1,298 @@
+{
+  "settings": {
+    "languages": [
+      "id"
+    ],
+    "forceNER": true
+  },
+  "nluManager": {
+    "settings": {},
+    "languages": [
+      "id"
+    ],
+    "intentDomains": {},
+    "domainManagers": {
+      "id": {
+        "settings": {
+          "language": "id",
+          "useNoneFeature": true,
+          "config": {
+            "activation": "leaky-relu",
+            "hiddenLayers": [],
+            "iterations": 20000,
+            "learningRate": 0.7,
+            "errorThresh": 0.00005,
+            "momentum": 0.5,
+            "deltaErrorThresh": 0.000001,
+            "maxDecimals": 9,
+            "leakyReluAlpha": 0.08,
+            "timeout": 120000
+          }
+        },
+        "language": "id",
+        "nluClassName": "BrainNLU",
+        "useMasterDomain": true,
+        "trainByDomain": false,
+        "keepStopwords": true,
+        "stemDict": {
+          "permisi": {
+            "domain": "default",
+            "intent": "bantuan"
+          },
+          "hallo": {
+            "domain": "default",
+            "intent": "bantuan"
+          },
+          "halo": {
+            "domain": "default",
+            "intent": "bantuan"
+          },
+          "barang,susah": {
+            "domain": "default",
+            "intent": "bantuan_barang"
+          },
+          "manusia": {
+            "domain": "default",
+            "intent": "manusia"
+          }
+        },
+        "intentDict": {
+          "bantuan": "default",
+          "bantuan_barang": "default",
+          "manusia": "default"
+        },
+        "useStemDict": true,
+        "domains": {
+          "master_domain": {
+            "settings": {
+              "language": "id",
+              "useNoneFeature": true,
+              "config": {
+                "activation": "leaky-relu",
+                "hiddenLayers": [],
+                "iterations": 20000,
+                "learningRate": 0.7,
+                "errorThresh": 0.00005,
+                "momentum": 0.5,
+                "deltaErrorThresh": 0.000001,
+                "maxDecimals": 9,
+                "leakyReluAlpha": 0.08,
+                "timeout": 120000
+              }
+            },
+            "language": "id",
+            "keepStopwords": true,
+            "docs": [
+              {
+                "intent": "bantuan",
+                "tokens": [
+                  "permisi"
+                ]
+              },
+              {
+                "intent": "bantuan",
+                "tokens": [
+                  "hallo"
+                ]
+              },
+              {
+                "intent": "bantuan",
+                "tokens": [
+                  "halo"
+                ]
+              },
+              {
+                "intent": "bantuan_barang",
+                "tokens": [
+                  "barang",
+                  "susah"
+                ]
+              },
+              {
+                "intent": "manusia",
+                "tokens": [
+                  "manusia"
+                ]
+              }
+            ],
+            "features": {
+              "permisi": 1,
+              "hallo": 1,
+              "halo": 1,
+              "barang": 1,
+              "susah": 1,
+              "manusia": 1
+            },
+            "isEditing": false,
+            "className": "BrainNLU",
+            "classifier": {
+              "className": "BrainClassifier",
+              "settings": {
+                "language": "id",
+                "useNoneFeature": true,
+                "config": {
+                  "activation": "leaky-relu",
+                  "hiddenLayers": [],
+                  "iterations": 20000,
+                  "learningRate": 0.7,
+                  "errorThresh": 0.00005,
+                  "momentum": 0.5,
+                  "deltaErrorThresh": 0.000001,
+                  "maxDecimals": 9,
+                  "leakyReluAlpha": 0.08,
+                  "timeout": 120000
+                }
+              },
+              "labels": [],
+              "network": {
+                "sizes": [
+                  7,
+                  4
+                ],
+                "layers": [
+                  {
+                    "permisi": {},
+                    "hallo": {},
+                    "halo": {},
+                    "barang": {},
+                    "susah": {},
+                    "manusia": {},
+                    "nonefeature": {}
+                  },
+                  {
+                    "bantuan": {
+                      "bias": 4.992429963,
+                      "weights": {
+                        "permisi": 7.431459904,
+                        "hallo": 7.430179596,
+                        "halo": 7.406357288,
+                        "barang": -2.505848408,
+                        "susah": -2.505848408,
+                        "manusia": -4.898632526,
+                        "nonefeature": -4.869971752
+                      }
+                    },
+                    "bantuan_barang": {
+                      "bias": 0.832830569,
+                      "weights": {
+                        "permisi": -0.832440555,
+                        "hallo": -0.829919219,
+                        "halo": -0.827106655,
+                        "barang": 5.831433296,
+                        "susah": 5.831433296,
+                        "manusia": -0.84085077,
+                        "nonefeature": -0.835493624
+                      }
+                    },
+                    "manusia": {
+                      "bias": 1.669218504,
+                      "weights": {
+                        "permisi": -1.629255652,
+                        "hallo": -1.620095015,
+                        "halo": -1.610361099,
+                        "barang": -0.82763356,
+                        "susah": -0.82763356,
+                        "manusia": 10.662902832,
+                        "nonefeature": -1.639830112
+                      }
+                    },
+                    "None": {
+                      "bias": 1.671016472,
+                      "weights": {
+                        "permisi": -1.637896299,
+                        "hallo": -1.629206657,
+                        "halo": -1.619943857,
+                        "barang": -0.830411732,
+                        "susah": -0.830411732,
+                        "manusia": -1.606304526,
+                        "nonefeature": 10.657569885
+                      }
+                    }
+                  }
+                ],
+                "trainOpts": {
+                  "iterations": 20000,
+                  "errorThresh": 0.00005,
+                  "fixedError": false,
+                  "deltaErrorThresh": 0.000001,
+                  "learningRate": 0.7,
+                  "momentum": 0.5,
+                  "leakyReluAlpha": 0.08,
+                  "maxDecimals": 9,
+                  "log": false
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "extraSentences": [
+      [
+        "id",
+        "permisi"
+      ],
+      [
+        "id",
+        "hallo"
+      ],
+      [
+        "id",
+        "halo"
+      ],
+      [
+        "id",
+        "barang susah"
+      ],
+      [
+        "id",
+        "manusia"
+      ]
+    ]
+  },
+  "nerManager": {
+    "settings": {},
+    "threshold": 0.8,
+    "builtins": [
+      "Number",
+      "Ordinal",
+      "Percentage",
+      "Age",
+      "Currency",
+      "Dimension",
+      "Temperature",
+      "DateTime",
+      "PhoneNumber",
+      "IpAddress",
+      "Boolean",
+      "Email",
+      "Hashtag",
+      "URL"
+    ],
+    "namedEntities": {}
+  },
+  "slotManager": {},
+  "responses": {
+    "id": {
+      "bantuan": [
+        {
+          "response": "Hallo *pushname*, Selamat datang di AI-SsistenNKami disini membantu anda dalam permasalahan barang/eletronika anda\n      "
+        }
+      ],
+      "bantuan_barang": [
+        {
+          "response": "\nUntuk melakukkan cara penggunaanNbarang bisa ketik Namabarnag#kodebarang\n      "
+        }
+      ],
+      "manusia": [
+        {
+          "response": "Untuk menghubungi layanan servis kamiNBisa anda hubungi ke nomor wa.me/6285155139920\n      "
+        }
+      ]
+    }
+  },
+  "actions": {},
+  "utteranceDict": {
+    "?": "help"
+  }
+}
